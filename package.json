@@ -1,0 +1,13 @@
+{
+  "dependencies": {
+    "@vitalets/google-translate-api": "^9.2.1",
+    "fs": "^0.0.1-security",
+    "fsp": "^0.1.2",
+    "google-translate-api-x": "^10.7.2",
+    "mysql": "^2.18.1",
+    "mysql-promises": "^1.0.1",
+    "mysql2": "^3.14.3",
+    "promises": "^0.2.5",
+    "xml2js": "^0.6.2"
+  }
+}
