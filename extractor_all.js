@@ -1,10 +1,10 @@
 const fs = require("fs");
 
-// Archivos
+// Files
 const INPUT_FILE = "iteminfo.x7";
 const OUTPUT_FILE = "items.sql";
 
-// Helpers para IDs
+// Helpers for IDs
 const padSub = (id) => id.toString().padStart(2, "0");
 const padItem = (num) => num.toString().padStart(4, "0");
 
@@ -66,7 +66,7 @@ async function main() {
   }
 
   fs.writeFileSync(OUTPUT_FILE, sqlOutput, "utf8");
-  console.log(`✅ items.sql generado con ${itemsInsert.length} items`);
+  console.log(`✅ items.sql generated with ${itemsInsert.length} items`);
 }
 
 main().catch((err) => console.error("Error:", err));
